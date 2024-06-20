@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess-Game</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>I am thinking of a number between 0 and 100</h2>
+            <h3>Can you guess it?</h3>
+        </div>
+        <div class="input">
+            <input placeholder="Num" id="num">
+            <button onclick="makeGuess()" id="guess-btn">Guess</button>
+
+        </div>
+        <div class="result">
+            <p id="msg"></p>
+            <p id="msg1">No. of guesses are: 0</p>
+            <p id="msg2">Your Guesses : None</p>
+        </div>
+    </div>
+
+</body>
+
+</html>
